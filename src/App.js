@@ -1,4 +1,4 @@
-import ExpenseItem from './components/ExpenseItem.js';
+import Expenses from './components/Expenses/Expenses.js';
 import './App.css';
 
 function App() {
@@ -27,9 +27,7 @@ function App() {
 
   return (
     <div className='container'>
-      {expenses.map((expense, index) => {
-        return <ExpenseItem props={expense} key={index} />;
-      })}
+      <Expenses props={expenses} />
     </div>
   );
 }
