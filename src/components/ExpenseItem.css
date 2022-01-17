@@ -13,37 +13,6 @@
   background-color: #414141;
 }
 
-.expense-item-date {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #252525;
-  border: 2px solid white;
-  border-radius: 12px;
-  color: wheat;
-  padding: 0.3rem;
-  flex: 0 0 8rem;
-}
-
-.date-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.expense-month {
-  font-size: 1.5rem;
-}
-
-.expense-year {
-  font-size: 0.8rem;
-}
-
-.expense-date {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
 .expense-item-description {
   display: flex;
   flex-direction: row;
