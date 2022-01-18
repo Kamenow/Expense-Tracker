@@ -1,4 +1,5 @@
 .expenses-filter {
+  display: flex;
   color: white;
   padding: 0 1rem;
 }
