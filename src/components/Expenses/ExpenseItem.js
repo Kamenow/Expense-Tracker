@@ -9,6 +9,7 @@ const ExpenseItem = ({ props: { title, date, amount } }) => {
         <h2 className='expense-item-title'>{title}</h2>
       </div>
       <div className='expense-item-price'>{amount}$</div>
+      <button onClick={changeTitle}>{state}</button>
     </div>
   );
 };
