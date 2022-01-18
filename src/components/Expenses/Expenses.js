@@ -1,14 +1,12 @@
-import ExpenseItem from './ExpenseItem.js';
+import React from 'react';
+
+import ExpensesList from './ExpensesList.js';
 import './Expenses.css';
 
 const Expenses = ({ props: expenses }) => {
-  console.log(expenses);
-
   return (
     <div className='expenses'>
-      {expenses.map((expense, index) => {
-        return <ExpenseItem props={expense} key={index} />;
-      })}
+      <ExpensesList items={expenses} />
     </div>
   );
 };
